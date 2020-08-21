@@ -11,3 +11,6 @@ test('Reverse reverses a string', () => {
 test('Reverse reverses a string', () => {
   expect(reverse('  abcd')).toEqual('dcba  ');
 });
+test('Reverse reverses a string', () => {
+  expect(reverse('10086')).toEqual('68001');
+});
